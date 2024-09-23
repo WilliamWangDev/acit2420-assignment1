@@ -38,7 +38,8 @@ SSH stands for Secure Shell. It is a cryptographic network protocol that allows 
 3. You will be prompted to enter a passphrase. You can either enter a passphrase or leave it blank. If you leave it blank, the key will be created without a passphrase.
 
 
-4. The SSH key pair will be generated and saved in the 'ssh' folder. The public key will have a .pub extension.
+4. The SSH key pair will be generated and saved in the 'ssh' folder. The public key will have a `.pub` extension.
+
 ![keypair](./assets/keypair.png)
 
 
@@ -218,6 +219,7 @@ ssh -i .ssh/test-key arch@your-droplets-ip-address #change me(for example: ssh -
 nvim ~/.bashrc
 ```
 You will see the following image if `neovim` is installed successfully:
+
 ![neovim](./assets/neovim.png)
 
 ### Conclusion
